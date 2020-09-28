@@ -3,5 +3,6 @@ def square_array(array)
     array.each do |i|
     array[i]**2
     newArr.push(i**2)
+    return newArr
   end
 end
